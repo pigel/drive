@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Путевой лист автомобиля</string>
+    <string name="probeg">пробег</string>
+    <string name="out">выезд</string>
+    <string name="out2">выезд. км</string>
+    <string name="fuel1">выезд. л</string>
+    <string name="in">въезд</string>
+    <string name="probcity">город</string>
+    <string name="probtrassa">трасса</string>
+    <string name="fuel">топливо</string>
+    <string name="azs">выдано</string>
+    <string name="winter">зима</string>
+    <string name="summer">лето</string>
+    <string name="lastprob">загрузить последние показания</string>
+    <string name="predfs">остаток в баке при выезде</string>
+    <string name="next">далее</string>
+    <string name="preferences">настройки</string>
+    <string name="winteravetrassa">зимний расход трасса</string>
+    <string name="summeravetrassa">летний расход трасса</string>
+    <string name="winteravecity">зимний расход город</string>
+    <string name="summeravecity">летний расход город</string>
+    <string name="about">о программе</string>
+    <string name="avecommon">общий расход</string>
+    <string name="textabout">\n Экономия времени водителя. Имеются настройки расхода топлива.
+        Результат выводится на конечном экране.
+
+    </string>
+    <string name="intank">остаток топлива</string>
+    <string name="rights">© Dmitrii Voronchikhin 2018</string>
+
+</resources>

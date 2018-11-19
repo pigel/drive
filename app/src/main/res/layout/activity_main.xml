@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lifesider.blogspot.com.driverhelper.MainActivity">
+
+    <LinearLayout
+        android:layout_width="287dp"
+        android:layout_height="347dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/probtittletext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/out2"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eprobout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/probeg"
+            android:inputType="numberDecimal"
+            android:textAlignment="textStart"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/predbutton"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:onClick="onPredClick"
+            android:text="@string/lastprob"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ecity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/probcity"
+            android:inputType="numberDecimal"
+            android:textAlignment="textStart"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/etrassa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/probtrassa"
+            android:inputType="numberDecimal"
+            android:textAlignment="textStart"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="287dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="onClick"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
